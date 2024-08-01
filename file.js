@@ -1,10 +1,3 @@
-export{
-  capitalize,
-  reverseStr,
-  calculator,
-  caesarCipher,
-  analyzeArray
-};
 
 function capitalize(wrd){
   return wrd.charAt(0).toUpperCase() + wrd.slice(1);
@@ -65,3 +58,11 @@ function analyzeArray(list){
 
   return object;
 }
+
+export{
+  capitalize,
+  reverseStr,
+  calculator,
+  caesarCipher,
+  analyzeArray
+};
